@@ -1,0 +1,45 @@
+.Header-holder {
+    margin-left: 0.5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 251, 251);
+    border: solid 1px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5));
+    border-color: rgba(0, 0, 0, 0.5);
+    background-color:#034892;
+    color: white;
+
+  }
+ 
+  
+  
+  @media (min-width: 800px) {
+    .Title {
+      margin-left: calc(6%); /* Adjust the values as needed */
+      font-size: xx-large;
+    }
+  }
+  
+  .Header-holder img {
+    width: 8rem;
+    max-width: 100%;
+    margin: auto;
+    margin: 0;
+  }
+  
+  @media (max-width: 799px) {
+    .Title {
+      margin-left: calc(13%); /* Adjust the values as needed */
+      font-size: x-large ;
+    }
+  }
+  
+  .image-holder img {
+   /* Adjust the width as needed */
+    width: calc(8vw + 3rem);
+    margin-right: 15px;
+  }
+  
